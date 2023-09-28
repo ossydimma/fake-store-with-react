@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: rgb(241, 232, 232);
+}
+
+.header {
+    background: #fff;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    width: 100vw;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+.header :nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.searchBar {
+    display: flex;
+    
+    align-items: center;
+}
+.searchBar :nth-child(1) {
+    padding: 10px 20px;
+    height: 40px;
+    border: none;
+    border: 1px solid purple;
+}
+
+.searchIcon {
+    border: 1px solid purple;
+    background: purple;
+    padding: 10px;
+    cursor: pointer;
+    height: 40px;
+    
+}
+.header :nth-child(3) {
+    display: flex;
+    gap: 10px;
+    
+}
+.user {
+    display: flex; 
+}
+.user > p {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sign {
+    display: flex;
+    gap: 10px;
+    padding-top: 8px;
+}
+.signIn {
+    border-right: 1px solid gray;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+nav{
+    background: #fff;
+    padding: 10px 40px;
+}
+nav :nth-child(1) {
+   
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
