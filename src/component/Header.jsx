@@ -10,12 +10,12 @@ function Header() {
         </div>
         <div className='searchBar'>
             <input type="text" placeholder='Search...' />
-            <p className='searchIcon'>O</p>
+            <p className='searchIcon'><i className="fa-solid fa-magnifying-glass"></i></p>
         </div>
         <div>
           <div className='user'>
-            <p >0</p>
-            <p className='cart'>0</p>
+            <p ><i className="fa-solid fa-cart-shopping"></i></p> 
+            <p className='cart'><i className="fa-solid fa-user"></i></p>
           </div>
           <div className='logs'>
             <p>Welcome</p>
@@ -25,7 +25,11 @@ function Header() {
             </div>
           </div>
         </div>
+        <div id="bar">
+        <i className="fa-solid fa-bars"></i>
       </div>
+      </div>
+      
     </header>
   )
 }
